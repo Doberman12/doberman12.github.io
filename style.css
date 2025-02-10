@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 300px;
+    margin-top: 20px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between; /* Rozciągnie przyciski na całą szerokość */
+    align-items: center;
+    width: 10%; /* Określamy szerokość kontenera przycisków */
+    margin: 0 auto; /* Centrujemy kontener przycisków */
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+#yesBtn {
+    background-color: rgb(234, 69, 160);
+}
+#noBtn {
+    background-color: white;
+    color: black;
+}
